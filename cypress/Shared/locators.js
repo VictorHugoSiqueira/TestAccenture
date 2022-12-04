@@ -1,0 +1,115 @@
+export class Locators {
+  home() {
+    return {
+      TAB_ONE: {
+        TRICENTIS_BUTTON: "#tricentis_logo",
+        VEHICLE_INSURANCE: "#app_sub_title",
+        THIS_IS_A_SAMPLE: "#app_version",
+        VISIT_SUPPORT_BUTTON: "#visitsupport",
+        AUTOMOBILE_BUTTON:
+          ".main-navigation > .menu > :nth-child(1) > #nav_automobile",
+        TRUCK_BUTTON: ".main-navigation > .menu > :nth-child(2) > #nav_truck",
+        MOTORCYCLE_BUTTON:
+          ".main-navigation > .menu > :nth-child(3) > #nav_motorcycle",
+        CAMPER_BUTTON: ".main-navigation > .menu > :nth-child(4) > #nav_camper",
+        REQUEST_BUTTON: "#downloadtrial",
+        HOME_BUTTON: "#nav_home",
+        UNDEFINED_INSURANCE_TEXT: "#selectedinsurance",
+        ENTER_VEHICLE: "#entervehicledata",
+        ENTER_INSURANT: "#enterinsurantdata",
+        ENTER_PRODUCT: "#enterproductdata",
+        SELECT_PRICE: "#selectpriceoption",
+        SED_QUOTE: "#sendquote",
+        MAKE: "#make",
+        MAKE_OPTION: "BMW",
+        MODEL: "#model",
+        MODEL_OPTION: "Motorcycle",
+        CYLINDER_CAPACITY: "#cylindercapacity",
+        ENGINE_PERFORMANCE: "#engineperformance",
+        DATE: "#dateofmanufacture",
+        NUMBER_OF_SEATS: "#numberofseats",
+        NUMBER_OF_SEATS_OPTION: "3",
+        RIGHT_HAND_DRIVE:
+          ":nth-child(7) > .group > :nth-child(1) > .ideal-radio",
+        NUMBER_OF_SEATS_SECOND: "#numberofseatsmotorcycle",
+        NUMBER_OF_SEATS_SECOND_OPTION: "2",
+        FUEL_TYPE: "#fuel",
+        FUEL_TIPE_OPTION: "Diesel",
+        PLAYLOAD: "#payload",
+        TOTAL_WEIGHT: "#totalweight",
+        LIST_PRICE: "#listprice",
+        LICENSE_PLATE_NUMBER: "#licenseplatenumber",
+        ANNUAL_MILEAHE: "#annualmileage",
+        BUTTON_NEXT: "#nextenterinsurantdata",
+        ABOUT_BUTTON: "#tricentis_about",
+        PRODUCTS_BUTTON: "#tricentis_products",
+        EVENTS_BUTTON: "#tricentis_events",
+        RESOURCES_BUTTON: "#tricentis_resources",
+        SERVICES_BUTTON: "#tricentis_services",
+        COPYRIHT: ".colophon",
+      },
+      TAB_TWO: {
+        FIRST_NAME: "#firstname",
+        LAST_NAME: "#lastname",
+        DATE_OF_BIRTH: "#birthdate",
+        GENDER: ":nth-child(4) > .group > :nth-child(1) > .ideal-radio",
+        STREET_ADDRESS: "#streetaddress",
+        COUNTRY: "#country",
+        ZIPCODE: "#zipcode",
+        CITY: "#city",
+        OCCUPATION: "#occupation",
+        HOBBIES: ":nth-child(3) > .ideal-check",
+        WEBSITE: "#website",
+        PICTURE: "#picture",
+        BUTTON_NEXT_PRODUCT_DATA: "#nextenterproductdata",
+        LABEL_ZIPCODE:
+          'section[style="display: block;"] > :nth-child(7) > .main',
+        LABEL_CITY: 'section[style="display: block;"] > :nth-child(8) > .main',
+        LABEL_GENDER:
+          'section[style="display: block;"] > :nth-child(4) > .main',
+        LABEL_WEBSITE:
+          'section[style="display: block;"] > :nth-child(11) > .main',
+      },
+      TAB_THREE: {
+        START_DATE: "#startdate",
+        INSURANCE_SUM: "#insurancesum",
+        MERIT_RATING: "#meritrating",
+        DAMAGE_INSURANCE: "#damageinsurance",
+        OPTIONAL_PRODUCTS:
+          "section[style='display: block;'] > .idealforms-field-checkbox > .group > :nth-child(1) > .ideal-check",
+        COURTESY_CAR: "#courtesycar",
+        BUTTON_NEXT_PRODUCT_DATA: "#nextselectpriceoption",
+        LABEL_COURTESY_CAR: 'section[style="display: block;"] > :nth-child(6) > .main',
+        LABEL_DAMAGE_INSURANCE: 'section[style="display: block;"] > :nth-child(4) > .main',
+        LABEL_MERIT_RATING: 'section[style="display: block;"] > :nth-child(3) > .main',
+        LABEL_START_DATE: 'section[style="display: block;"] > .idealforms-field-text > .main',
+      },
+      TAB_FOUR: {
+        SELECT_OPTION: "tr > .group > :nth-child(1) > .ideal-radio",
+        BUTTON_NEXT_PAGE: "#nextsendquote",
+        LABEL_ULTIMATE: "#priceTable > thead > tr > :nth-child(5)",
+        LABEL_PLATINUM: "#priceTable > thead > tr > :nth-child(4)",
+        LABEL_GOLD: "#priceTable > thead > tr > :nth-child(3)",
+        LABEL_SILVER: "#priceTable > thead > tr > :nth-child(2)",
+        
+      },
+      TAB_FIVE: {
+        EMAIL: "#email",
+        PHONE: "#phone",
+        USERNAME: "#username",
+        PASSWORD: "#password",
+        CONFIRM_PASSWORD: "#confirmpassword",
+        COMMENTS: "#Comments",
+        BUTTON_SEND_EMAIL: "#sendemail",
+        LABEL_EMAIL: ".idealforms-field-email > .main",
+        LABEL_PASSWORD: "#sendQuoteForm > :nth-child(4) > .main",
+        LABEL_USERNAME: "#sendQuoteForm > :nth-child(3) > .main",
+        LABEL_PHONE: "#sendQuoteForm > :nth-child(2) > .main",
+        LABEL_SUCCESS: "h2",
+      },
+    };
+  }
+}
+
+const locators = new Locators();
+export default locators;
