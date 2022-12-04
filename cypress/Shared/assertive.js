@@ -9,7 +9,7 @@ export class Assertive {
         VISIBLE: "be.visible",
         NOT_VISIBLE: "not.be.visible",
         INCLUDE_TEXT: "include",
-        NOT_HAVE_VALEU: "not.have.value",
+        NOT_HAVE_VALUE: "not.have.value",
         QUANTITY: "have.length",
       },
     };
