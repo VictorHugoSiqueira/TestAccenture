@@ -5,8 +5,8 @@ import "cypress-file-upload";
 
 const { ASSERTIVE } = assertive.assertive();
 
-Cypress.Commands.add("compareText", (locator, text) => {
-  cy.get(locator).should(ASSERTIVE.COMPARE_TEXT, text);
+Cypress.Commands.add("compareText", (locator, text, time) => {
+  cy.get(locator, { timeout: time }).should(ASSERTIVE.COMPARE_TEXT, text);
 });
 
 Cypress.Commands.add("isVisible", (locator) => {

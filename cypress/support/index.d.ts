@@ -5,7 +5,7 @@ declare namespace Cypress {
       compareText(
         locator: string,
         message: string,
-        timeout?: number
+        time?: number
       ): Chainable<Element>;
   
       isVisible(locator: string, timeout?: number): Chainable<Element>;
