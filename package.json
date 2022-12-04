@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cypress": "^11.2.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "scripts": {
+    "open": "cypress open"
+  }
+}
