@@ -125,7 +125,7 @@ describe("Functionality: Accessing the fourth tab and filling up all the inputs"
     it("When i choose one of the options", () => {
       priceOption.insertInputValues();
     });
-    it("Then clicl on the next button", () => {
+    it("Then click on the next button", () => {
       priceOption.nextPage();
     });
   });
